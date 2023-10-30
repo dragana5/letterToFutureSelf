@@ -1,0 +1,46 @@
+body {
+    background-image: url('./images/sky 2.png'); 
+    background-color: rgba(255, 255, 255, 0.1); 
+    background-blend-mode: overlay; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    color: #fff; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    max-width: 400px;
+    margin-bottom: 20px; 
+}
+
+h1, h3 {
+    margin-top: 10%; 
+}
+
+.resizable {
+    resize: both;
+    overflow: auto;
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 10%;
+    background-color: lightblue;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+#scheduleEmailGoBackToSite {
+    margin-top: 3%;
+}

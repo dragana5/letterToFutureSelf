@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsite</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Letter to myself</h1>
+        <form class="myForm">
+            <div class="form-group">
+                <textarea class="form-control resizable" id="inputField" placeholder="Dear future self..." rows="4"></textarea>
+                <h3>Please select a date for your email to be sent</h3>
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control" id="date-select">
+            </div>
+            <button type="button" class="btn" id="scheduleEmail">Schedule Email</button>
+            <button type="button" class="btn" id="scheduleEmailGoBackToSite">Schedule Email and Go to Site</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
