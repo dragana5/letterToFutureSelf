@@ -1,7 +1,7 @@
+import { apiKey, letterToFutureSelfSignUpListID } from './secrets.js';
+
 const currentURL = window.location.href;
 const klaviyoEmail = getQueryParamValue(currentURL, "klaviyo_email");
-const apiKey = "pk_0169f70a51e8aaba9a40e4540b854c8290";
-const letterToFutureSelfSignUpListID = 'YkLR4t'
 
 document.getElementById("scheduleEmail").addEventListener("click", function () {
     const messageToFutureSelf = document.getElementById("inputField").value;

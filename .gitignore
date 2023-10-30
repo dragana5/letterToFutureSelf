@@ -1,0 +1,6 @@
+# Ignore secrets.js file
+secrets.js
+
+# Ignore the entire logs directory
+logs/
+
