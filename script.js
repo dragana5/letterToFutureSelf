@@ -11,7 +11,7 @@ document.getElementById("scheduleEmail").addEventListener("click", function () {
     const profileID = getProfileID(klaviyoEmail);
     if (profileID) {
         addDataToProfile(messageToFutureSelf, selectedDate, profileID);
-        addProfileToList(messageToFutureSelf,selectedDate);
+        // addProfileToList(messageToFutureSelf,selectedDate); NO NEED TO ADD PROFILE TO THE LIST
     }
 
 });
@@ -26,7 +26,7 @@ document.getElementById("scheduleEmailGoBackToSite").addEventListener("click", f
     const profileID = getProfileID(klaviyoEmail);
     if (profileID) {
         addDataToProfile(messageToFutureSelf, selectedDate, profileID);
-        addProfileToList(messageToFutureSelf, selectedDate);
+        // addProfileToList(messageToFutureSelf,selectedDate); NO NEED TO ADD PROFILE TO THE LIST
         // Redirect the user to 'www.mybrand.com'
         window.location.href = 'https://www.mybrand.com';
     }
